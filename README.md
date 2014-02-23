@@ -2,6 +2,8 @@
 
 DataDiff compares Python data structures, and returns a structurally consistent diffed data structure.
 
+This is mostly for my own use at the moment, if you have problems or questions let me know.  I'll be cleaning things up to make it nicer for other people to use with better documentation when I get time.
+
 ## Example Data
 
 ```
@@ -28,7 +30,7 @@ PY_TEST_2 = {
 }
 ```
 
-## Example DataDiff
+## Example Invocation
 
 ```
   (source_diff, target_diff) = DataDiff(PY_TEST_1, PY_TEST_2, compare_list_as_value=True)
