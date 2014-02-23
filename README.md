@@ -30,8 +30,9 @@ PY_TEST_2 = {
 
 ## Example DataDiff
 
-`  (source_diff, target_diff) = DataDiff(PY_TEST_1, PY_TEST_2, compare_list_as_value=True)`
-
+```
+  (source_diff, target_diff) = DataDiff(PY_TEST_1, PY_TEST_2, compare_list_as_value=True)
+```
 
 ## Result
 
